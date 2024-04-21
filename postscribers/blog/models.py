@@ -1,21 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
 # Create your models here.
-'''
-superuser
-username:afroefrony
-email: efronivy111@gmail.com
-password: efron7@tank
-'''
-'''
-for example 
-it is not the superuser
-username: booboo
-email: bibi@gmail.com
-password: bomboclash
-'''
-#username: yooo
-#qwow@3&^%
 
 class PostModel(models.Model):
     title = models.CharField(max_length=100)
