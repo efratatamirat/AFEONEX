@@ -1,0 +1,26 @@
+{% extends 'partials/base.html '%}
+{% load static %}
+{% block title %} Sign Up {% endblock %}
+{% block content %}
+<div class="cover">
+<div class="container cover">
+    <div class="row mt-5 pt-3">
+         <div class="col-md-7 offset-md-2">
+            <div class="card my-3 shadow" style="height: 400px;">
+                <div class="card-body" style="background-color: purple;">
+                    <h4>Sign Up Page</h4>
+                    <hr>
+                    <form method="POST" style="color:white;">
+                        {% csrf_token %}
+                        {{ form }}
+                        <input class="btn btn-primary btn-block"
+                               type="submit"
+                               value="Sign Up">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+{% endblock %}

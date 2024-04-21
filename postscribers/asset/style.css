@@ -1,0 +1,39 @@
+body{
+background: gray;
+}
+.card{
+background-color: black;
+}
+
+
+.cover{
+background: url('/media/background.jpg');
+background-position: center;
+background-size: cover;
+height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
